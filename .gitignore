@@ -103,3 +103,8 @@ dist
 
 #temporary configurations
 #env-config.js
+
+# CI/CD artifacts
+deployed-build/
+build-info.txt
+shopizer-shop-build.tar.gz

@@ -1,3 +1,7 @@
+# shopizer-shop-reactjs
+
+![CI Pipeline](https://github.com/himanshibansal-max/shopizer-shop-reactjs/actions/workflows/ci.yml/badge.svg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
