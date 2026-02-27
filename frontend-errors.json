@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-02-26T10:30:00.259Z",
+  "url": "http://localhost:3000",
+  "consoleErrors": [
+    {
+      "type": "console",
+      "level": "error",
+      "message": "src/wrappers/product/TabProduct.js\nSyntax error: Missing semicolon. (27:20)\n\n  25 |   }, []);\n  26 |   const getProductList = async () => {\n> 27 |     setLoader(true)    let action = constant.ACTION.PRODUCT_GROUP + 'FEATURED_ITEM?store=' + defaultStore + '&lang=' + currentLanguageCode;\n     |                    ^\n  28 |     try {\n  29 |       let response = await WebService.get(action);\n  30 |       if (response) {",
+      "timestamp": "2026-02-26T10:30:00.630Z",
+      "location": {
+        "url": "http://localhost:3000/static/js/vendors~main.chunk.js",
+        "lineNumber": 56336,
+        "columnNumber": 21
+      }
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "message": "The above error occurred in one of your React components:\n    in Unknown (created by Context.Consumer)\n    in Route (at App.js:95)\n    in Switch (at App.js:94)\n    in Suspense (at App.js:84)\n    in ScrollToTop (created by Context.Consumer)\n    in withRouter(ScrollToTop) (at App.js:83)\n    in Router (created by BrowserRouter)\n    in BrowserRouter (at App.js:79)\n    in ThroughProvider (at App.js:78)\n    in ToastProvider (at App.js:77)\n    in App (created by Connect(App))\n    in Connect(App) (created by Connect(Connect(App)))\n    in Connect(Connect(App)) (at src/index.js:29)\n    in Provider (at src/index.js:28)\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://fb.me/react-error-boundaries to learn more about error boundaries.",
+      "timestamp": "2026-02-26T10:30:00.637Z",
+      "location": {
+        "url": "http://localhost:3000/static/js/vendors~main.chunk.js",
+        "lineNumber": 56336,
+        "columnNumber": 21
+      }
+    }
+  ],
+  "pageErrors": [
+    {
+      "type": "uncaught_exception",
+      "message": "process is not defined",
+      "stack": "ReferenceError: process is not defined\n    at 4043 (<anonymous>:2:13168)\n    at r (<anonymous>:2:306599)\n    at 8048 (<anonymous>:2:9496)\n    at r (<anonymous>:2:306599)\n    at 8641 (<anonymous>:2:1379)\n    at r (<anonymous>:2:306599)\n    at <anonymous>:2:315627\n    at <anonymous>:2:324225\n    at <anonymous>:2:324229\n    at e.onload (http://localhost:3000/static/js/vendors~main.chunk.js:56952:373285)",
+      "timestamp": "2026-02-26T10:30:00.630Z"
+    },
+    {
+      "type": "uncaught_exception",
+      "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/himanshibansal/Documents/shopizer-shop-reactjs/src/wrappers/product/TabProduct.js: Missing semicolon. (27:19)\n\n  25 |   }, []);\n  26 |   const getProductList = async () => {\n> 27 |     setLoader(true)    let action = constant.ACTION.PRODUCT_GROUP + 'FEATURED_ITEM?store=' + defaultStore + '&lang=' + currentLanguageCode;\n     |                    ^\n  28 |     try {\n  29 |       let response = await WebService.get(action);\n  30 |       if (response) {",
+      "stack": "Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/himanshibansal/Documents/shopizer-shop-reactjs/src/wrappers/product/TabProduct.js: Missing semicolon. (27:19)\n\n  25 |   }, []);\n  26 |   const getProductList = async () => {\n> 27 |     setLoader(true)    let action = constant.ACTION.PRODUCT_GROUP + 'FEATURED_ITEM?store=' + defaultStore + '&lang=' + currentLanguageCode;\n     |                    ^\n  28 |     try {\n  29 |       let response = await WebService.get(action);\n  30 |       if (response) {\n    at instantiate (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:72:32)\n    at constructor (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:358:12)\n    at Object.raise (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:3335:19)\n    at Object.semicolon (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:3996:10)\n    at Object.parseExpressionStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:15134:10)\n    at Object.parseExpressionStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:5849:18)\n    at Object.parseStatementContent (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:14681:19)\n    at Object.parseStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:14533:17)\n    at Object.parseStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:5823:24)\n    at Object.parseBlockOrModuleBlockBody (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:15176:25)\n    at ./src/wrappers/product/TabProduct.js (http://localhost:3000/static/js/2.chunk.js:1075:7)\n    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:857:31)\n    at fn (http://localhost:3000/static/js/bundle.js:151:20)\n    at Module.<anonymous> (http://localhost:3000/static/js/2.chunk.js:549:86)\n    at ./src/pages/home/Home.js (http://localhost:3000/static/js/2.chunk.js:727:30)\n    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:857:31)\n    at fn (http://localhost:3000/static/js/bundle.js:151:20)",
+      "timestamp": "2026-02-26T10:30:00.636Z"
+    },
+    {
+      "type": "uncaught_exception",
+      "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/himanshibansal/Documents/shopizer-shop-reactjs/src/wrappers/product/TabProduct.js: Missing semicolon. (27:19)\n\n  25 |   }, []);\n  26 |   const getProductList = async () => {\n> 27 |     setLoader(true)    let action = constant.ACTION.PRODUCT_GROUP + 'FEATURED_ITEM?store=' + defaultStore + '&lang=' + currentLanguageCode;\n     |                    ^\n  28 |     try {\n  29 |       let response = await WebService.get(action);\n  30 |       if (response) {",
+      "stack": "Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/himanshibansal/Documents/shopizer-shop-reactjs/src/wrappers/product/TabProduct.js: Missing semicolon. (27:19)\n\n  25 |   }, []);\n  26 |   const getProductList = async () => {\n> 27 |     setLoader(true)    let action = constant.ACTION.PRODUCT_GROUP + 'FEATURED_ITEM?store=' + defaultStore + '&lang=' + currentLanguageCode;\n     |                    ^\n  28 |     try {\n  29 |       let response = await WebService.get(action);\n  30 |       if (response) {\n    at instantiate (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:72:32)\n    at constructor (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:358:12)\n    at Object.raise (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:3335:19)\n    at Object.semicolon (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:3996:10)\n    at Object.parseExpressionStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:15134:10)\n    at Object.parseExpressionStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:5849:18)\n    at Object.parseStatementContent (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:14681:19)\n    at Object.parseStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:14533:17)\n    at Object.parseStatement (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:5823:24)\n    at Object.parseBlockOrModuleBlockBody (/Users/himanshibansal/Documents/shopizer-shop-reactjs/node_modules/@babel/parser/lib/index.js:15176:25)\n    at ./src/wrappers/product/TabProduct.js (http://localhost:3000/static/js/2.chunk.js:1075:7)\n    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:857:31)\n    at fn (http://localhost:3000/static/js/bundle.js:151:20)\n    at Module.<anonymous> (http://localhost:3000/static/js/2.chunk.js:549:86)\n    at ./src/pages/home/Home.js (http://localhost:3000/static/js/2.chunk.js:727:30)\n    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:857:31)\n    at fn (http://localhost:3000/static/js/bundle.js:151:20)",
+      "timestamp": "2026-02-26T10:30:00.638Z"
+    }
+  ],
+  "networkErrors": [],
+  "summary": {
+    "totalErrors": 5,
+    "consoleErrorCount": 2,
+    "pageErrorCount": 3,
+    "networkErrorCount": 0
+  }
+}

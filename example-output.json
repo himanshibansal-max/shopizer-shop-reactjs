@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-02-26T14:33:29.749Z",
+  "url": "http://localhost:3000",
+  "consoleErrors": [
+    {
+      "type": "console",
+      "level": "error",
+      "message": "Error: Request failed with status code 404",
+      "timestamp": "2026-02-26T14:33:32.123Z",
+      "location": {
+        "url": "http://localhost:3000/static/js/bundle.js",
+        "lineNumber": 45678,
+        "columnNumber": 23
+      }
+    }
+  ],
+  "pageErrors": [],
+  "networkErrors": [
+    {
+      "type": "network",
+      "url": "http://localhost:8080/api/v1/products/group/FEATURED_ITEM_BROKEN?store=DEFAULT&lang=en",
+      "method": "GET",
+      "status": 404,
+      "statusText": "Not Found",
+      "headers": {
+        "content-type": "application/json",
+        "content-length": "156"
+      },
+      "responseBody": "{\"timestamp\":\"2026-02-26T09:03:32.789+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/api/v1/products/group/FEATURED_ITEM_BROKEN\"}",
+      "timestamp": "2026-02-26T14:33:32.789Z"
+    }
+  ],
+  "summary": {
+    "totalErrors": 2,
+    "consoleErrorCount": 1,
+    "pageErrorCount": 0,
+    "networkErrorCount": 1
+  }
+}
